@@ -1,0 +1,108 @@
+2024-12-23 11:07:03,394 - src.rag - INFO - Loading document: ./data/sample.txt
+2024-12-23 11:07:03,394 - src.rag - INFO - Processing documents with text splitter
+2024-12-23 11:07:03,394 - src.rag - INFO - Creating new vector store collection: default
+2024-12-23 11:07:03,632 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-23 11:07:04,164 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-23 11:07:05,186 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-23 11:07:05,191 - chromadb.segment.impl.vector.local_hnsw - WARNING - Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+2024-12-23 11:07:06,202 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 11:07:07,226 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 11:07:08,387 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 11:12:26,439 - __main__ - INFO - Testing RAG pipeline...
+2024-12-23 11:12:26,500 - src.rag - INFO - Loading document: data/sample.txt
+2024-12-23 11:12:26,500 - __main__ - INFO - Loaded 1 documents
+2024-12-23 11:12:26,500 - __main__ - ERROR - Error in RAG pipeline: RAGPipeline.create_vectorstore() missing 1 required positional argument: 'documents'
+2024-12-23 11:12:26,500 - __main__ - INFO - 
+Testing conversation chain...
+2024-12-23 11:12:26,566 - __main__ - ERROR - Error in conversation chain: The input to RunnablePassthrough.assign() must be a dict.
+2024-12-23 11:12:26,566 - __main__ - INFO - 
+Testing workflow...
+2024-12-23 11:12:26,578 - __main__ - ERROR - Error in workflow: Message dict must contain 'role' and 'content' keys, got {'content': 'Tell me about LangChain'}
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/MESSAGE_COERCION_FAILURE 
+2024-12-23 11:12:26,578 - __main__ - WARNING - 
+Some tests failed. Check the logs for details.
+2024-12-23 11:13:55,735 - __main__ - INFO - Testing RAG pipeline...
+2024-12-23 11:13:55,787 - src.rag - INFO - Loading document: data/sample.txt
+2024-12-23 11:13:55,788 - __main__ - INFO - Loaded 1 documents
+2024-12-23 11:13:55,789 - src.rag - INFO - Loading document: data/sample.txt
+2024-12-23 11:13:55,790 - src.rag - INFO - Processing documents with text splitter
+2024-12-23 11:13:55,790 - src.rag - INFO - Creating new vector store collection: default
+2024-12-23 11:13:56,044 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-23 11:13:56,530 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-23 11:13:57,350 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-23 11:13:57,434 - chromadb.segment.impl.vector.local_hnsw - WARNING - Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+2024-12-23 11:13:58,366 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 11:13:58,374 - __main__ - INFO - 
+Question: What are the key points about LangChain?
+2024-12-23 11:13:58,374 - __main__ - INFO - Answer: The key points about LangChain are:
+1. LangChain has a modular structure.
+2. It can be integrated with different LLMs (Large Language Models).
+3. It provides document processing and vector database support.
+4. It allows for the creation of agents and chains.
+2024-12-23 11:13:58,374 - __main__ - INFO - Total Cost: $0.0002
+2024-12-23 11:13:58,375 - __main__ - INFO - 
+Testing conversation chain...
+2024-12-23 11:13:58,398 - __main__ - ERROR - Error in conversation chain: 'ConversationBufferMemory' object has no attribute 'messages'
+2024-12-23 11:13:58,398 - __main__ - INFO - 
+Testing workflow...
+2024-12-23 11:14:00,721 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 11:14:00,722 - __main__ - INFO - Workflow response: {'messages': [HumanMessage(content='Tell me about LangChain', additional_kwargs={}, response_metadata={}), AIMessage(content='LangChain is a blockchain-based platform that aims to revolutionize the language learning industry by providing a decentralized and transparent marketplace for language learners and teachers. The platform allows users to connect with language teachers from around the world, book lessons, and pay for services using cryptocurrency.\n\nLangChain also offers a range of tools and resources to help users improve their language skills, including interactive lessons, language exchange opportunities, and personalized study plans. The platform uses blockchain technology to ensure the security and integrity of user data, as well as to facilitate secure and efficient transactions.\n\nOverall, LangChain seeks to make language learning more accessible, affordable, and effective for people of all ages and backgrounds. By leveraging the power of blockchain technology, the platform aims to create a global community of language learners and teachers who can connect and collaborate in new and innovative ways.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 166, 'prompt_tokens': 12, 'total_tokens': 178, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None}, id='run-c01b1bf5-c0a5-4304-9a71-a498664bc982-0', usage_metadata={'input_tokens': 12, 'output_tokens': 166, 'total_tokens': 178, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}})], 'next': '__end__'}
+2024-12-23 11:14:00,722 - __main__ - WARNING - 
+Some tests failed. Check the logs for details.
+2024-12-23 11:14:24,350 - __main__ - INFO - Testing RAG pipeline...
+2024-12-23 11:14:24,407 - src.rag - INFO - Loading document: data/sample.txt
+2024-12-23 11:14:24,407 - __main__ - INFO - Loaded 1 documents
+2024-12-23 11:14:24,408 - src.rag - INFO - Loading document: data/sample.txt
+2024-12-23 11:14:24,408 - src.rag - INFO - Processing documents with text splitter
+2024-12-23 11:14:24,408 - src.rag - INFO - Creating new vector store collection: default
+2024-12-23 11:14:24,588 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-23 11:14:25,048 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-23 11:14:25,452 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-23 11:14:25,528 - chromadb.segment.impl.vector.local_hnsw - WARNING - Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+2024-12-23 11:14:26,776 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 11:14:26,790 - __main__ - INFO - 
+Question: What are the key points about LangChain?
+2024-12-23 11:14:26,790 - __main__ - INFO - Answer: The key points about LangChain are:
+1. LangChain has a modular structure.
+2. It can be integrated with different LLMs (Large Language Models).
+3. It provides document processing and vector database support.
+4. It allows for the creation of agents and chains.
+2024-12-23 11:14:26,790 - __main__ - INFO - Total Cost: $0.0002
+2024-12-23 11:14:26,790 - __main__ - INFO - 
+Testing conversation chain...
+2024-12-23 11:14:26,821 - __main__ - ERROR - Error in conversation chain: 'ConversationBufferMemory' object has no attribute 'messages'
+2024-12-23 11:14:26,821 - __main__ - INFO - 
+Testing workflow...
+2024-12-23 11:14:28,984 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 11:14:28,988 - __main__ - INFO - Workflow response: {'messages': [HumanMessage(content='Tell me about LangChain', additional_kwargs={}, response_metadata={}), AIMessage(content='LangChain is a blockchain-based platform that aims to revolutionize the language learning industry by providing a decentralized and transparent marketplace for language learners and teachers. The platform allows users to connect with language teachers from around the world, book lessons, and pay for services using cryptocurrency.\n\nLangChain also offers a range of tools and resources to help users improve their language skills, including interactive lessons, language exchange opportunities, and personalized study plans. The platform uses blockchain technology to ensure the security and integrity of user data, as well as to facilitate secure and transparent transactions.\n\nOverall, LangChain seeks to make language learning more accessible, affordable, and effective for people of all ages and backgrounds. By leveraging the power of blockchain technology, the platform aims to create a global community of language learners and teachers who can connect and collaborate in new and innovative ways.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 166, 'prompt_tokens': 12, 'total_tokens': 178, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None}, id='run-9e366843-0064-4acb-802f-3391a9a3a594-0', usage_metadata={'input_tokens': 12, 'output_tokens': 166, 'total_tokens': 178, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}})], 'next': '__end__'}
+2024-12-23 11:14:28,988 - __main__ - WARNING - 
+Some tests failed. Check the logs for details.
+2024-12-23 11:14:52,834 - __main__ - INFO - Testing RAG pipeline...
+2024-12-23 11:14:52,880 - src.rag - INFO - Loading document: data/sample.txt
+2024-12-23 11:14:52,881 - __main__ - INFO - Loaded 1 documents
+2024-12-23 11:14:52,881 - src.rag - INFO - Loading document: data/sample.txt
+2024-12-23 11:14:52,881 - src.rag - INFO - Processing documents with text splitter
+2024-12-23 11:14:52,882 - src.rag - INFO - Creating new vector store collection: default
+2024-12-23 11:14:53,071 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-23 11:14:53,742 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-23 11:14:54,476 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-23 11:14:54,479 - chromadb.segment.impl.vector.local_hnsw - WARNING - Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+2024-12-23 11:14:55,358 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 11:14:55,373 - __main__ - INFO - 
+Question: What are the key points about LangChain?
+2024-12-23 11:14:55,373 - __main__ - INFO - Answer: The key points about LangChain are:
+1. LangChain has a modular structure.
+2. It can be integrated with different LLMs (Large Language Models).
+3. It provides document processing and vector database support.
+4. It allows for the creation of agents and chains.
+2024-12-23 11:14:55,373 - __main__ - INFO - Total Cost: $0.0002
+2024-12-23 11:14:55,373 - __main__ - INFO - 
+Testing conversation chain...
+2024-12-23 11:14:55,916 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 11:14:55,918 - __main__ - INFO - Bot: content='Merhaba! Size nasıl yardımcı olabilirim?' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 16, 'prompt_tokens': 33, 'total_tokens': 49, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None} id='run-17211930-3ebc-4cac-bff9-dbfcf3000490-0' usage_metadata={'input_tokens': 33, 'output_tokens': 16, 'total_tokens': 49, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2024-12-23 11:14:55,918 - __main__ - INFO - 
+Testing workflow...
+2024-12-23 11:14:59,576 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 11:14:59,581 - __main__ - INFO - Workflow response: {'messages': [HumanMessage(content='Tell me about LangChain', additional_kwargs={}, response_metadata={}), AIMessage(content='LangChain is a blockchain-based platform that aims to revolutionize the language learning industry by providing a decentralized and transparent marketplace for language learners and teachers. The platform allows users to connect with language teachers from around the world, book lessons, and pay for services using cryptocurrency.\n\nLangChain also offers a range of tools and resources to help users improve their language skills, including interactive lessons, language exchange opportunities, and personalized study plans. The platform uses blockchain technology to ensure the security and integrity of user data, as well as to facilitate secure and efficient transactions.\n\nOverall, LangChain seeks to make language learning more accessible, affordable, and effective for people of all ages and backgrounds. By leveraging the power of blockchain technology, the platform aims to create a global community of language learners and teachers who can connect and collaborate in new and innovative ways.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 166, 'prompt_tokens': 12, 'total_tokens': 178, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None}, id='run-a33eca76-6dd6-451a-acb8-579e0a2b5c53-0', usage_metadata={'input_tokens': 12, 'output_tokens': 166, 'total_tokens': 178, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}})], 'next': '__end__'}
+2024-12-23 11:14:59,581 - __main__ - INFO - 
+All tests completed successfully!

@@ -1,0 +1,12 @@
+Bu bir örnek belgedir.
+
+LangChain, yapay zeka uygulamaları geliştirmek için güçlü bir araçtır.
+Bu belge, RAG (Retrieval-Augmented Generation) sistemini test etmek için kullanılacaktır.
+
+Önemli noktalar:
+1. LangChain modüler bir yapıya sahiptir
+2. Farklı LLM'ler ile entegre edilebilir
+3. Belge işleme ve vektör veritabanı desteği sunar
+4. Ajanlar ve zincirler oluşturmaya olanak tanır
+
+Bu örnek belge ile sistemimizin doğru çalışıp çalışmadığını test edebiliriz. 

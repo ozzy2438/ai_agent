@@ -1,0 +1,40 @@
+2024-12-23 12:03:57,907 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x1698ad850>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:04:04,913 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x1698adf10>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:04:13,922 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x1698ae910>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:04:25,936 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x169898390>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:04:32,945 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x169898f10>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:04:41,950 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x169899a10>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:04:53,964 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x16989b550>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:05:00,973 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x169894110>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:05:09,980 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x169894c50>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:05:21,993 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x169896790>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:05:28,998 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x169897310>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:05:38,006 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x169897e50>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:05:50,017 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x1698953d0>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:05:57,022 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x16989ae10>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:06:06,030 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x16989b450>, 'Connection to localhost timed out. (connect timeout=5)')': /collections
+2024-12-23 12:08:18,671 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-23 12:08:42,284 - httpx - INFO - HTTP Request: POST https://viubkydrocuevnfffloo.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2024-12-23 12:09:51,039 - web.api - ERROR - Error processing files: 'utf-8' codec can't decode byte 0xd3 in position 10: invalid continuation byte
+2024-12-23 12:10:04,704 - unstructured - INFO - Reading document from string ...
+2024-12-23 12:10:04,705 - unstructured - INFO - Reading document ...
+2024-12-23 12:10:06,513 - unstructured - INFO - Reading document from string ...
+2024-12-23 12:10:06,518 - unstructured - INFO - Reading document ...
+2024-12-23 12:10:06,890 - unstructured - INFO - Reading document from string ...
+2024-12-23 12:10:06,893 - unstructured - INFO - Reading document ...
+2024-12-23 12:10:07,508 - unstructured - INFO - Reading document from string ...
+2024-12-23 12:10:07,509 - unstructured - INFO - Reading document ...
+2024-12-23 12:10:07,941 - unstructured - INFO - Reading document from string ...
+2024-12-23 12:10:07,943 - unstructured - INFO - Reading document ...
+2024-12-23 12:10:08,815 - httpx - INFO - HTTP Request: POST https://viubkydrocuevnfffloo.supabase.co/rest/v1/documents "HTTP/2 404 Not Found"
+2024-12-23 12:10:09,072 - httpx - INFO - HTTP Request: POST https://viubkydrocuevnfffloo.supabase.co/rest/v1/documents "HTTP/2 404 Not Found"
+2024-12-23 12:10:09,529 - httpx - INFO - HTTP Request: POST https://viubkydrocuevnfffloo.supabase.co/rest/v1/documents "HTTP/2 404 Not Found"
+2024-12-23 12:10:09,836 - httpx - INFO - HTTP Request: POST https://viubkydrocuevnfffloo.supabase.co/rest/v1/documents "HTTP/2 404 Not Found"
+2024-12-23 12:10:10,145 - httpx - INFO - HTTP Request: POST https://viubkydrocuevnfffloo.supabase.co/rest/v1/documents "HTTP/2 404 Not Found"
+2024-12-23 12:10:11,954 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-23 12:10:26,913 - httpx - INFO - HTTP Request: GET https://viubkydrocuevnfffloo.supabase.co/rest/v1/queries?select=%2A&order=created_at.desc&limit=10 "HTTP/2 404 Not Found"
+2024-12-23 12:12:25,561 - httpx - INFO - HTTP Request: GET https://viubkydrocuevnfffloo.supabase.co/rest/v1/queries?select=%2A&order=created_at.desc&limit=10 "HTTP/2 404 Not Found"
+2024-12-23 12:12:32,094 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-23 12:12:33,848 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 12:12:34,105 - httpx - INFO - HTTP Request: POST https://viubkydrocuevnfffloo.supabase.co/rest/v1/queries "HTTP/2 404 Not Found"
+2024-12-23 12:12:34,608 - httpx - INFO - HTTP Request: GET https://viubkydrocuevnfffloo.supabase.co/rest/v1/queries?select=%2A&order=created_at.desc&limit=10 "HTTP/2 404 Not Found"
